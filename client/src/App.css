@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+button {
+  font-size: calc(10px + 1vmin);
+}
+
+.progress {
+  background-color: #f1f1f1;
+  width: 300px;
+}
+
+.progress > .progress-item {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.progress-item--download {
+  background-color: #4caf50;
+}
+
+.progress-item--upload {
+  background-color: #2196f3;
+}
